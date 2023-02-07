@@ -1,0 +1,48 @@
+.page-title {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+
+  & > .icon {
+    display: flex;
+    align-items: center;
+    background-color: #eaac30;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    border-radius: 30%;
+    margin-right: 15px;
+
+    & > img {
+      width: 35px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+        brightness(102%) contrast(102%);
+    }
+  }
+
+  & .star-color {
+    background-color: #eaac30;
+  }
+  & .box-color {
+    background-color: #ca024f;
+  }
+  & .all-file-color {
+    background-color: #005bd4;
+  }
+
+  & > .name {
+    width: 45rem;
+  }
+
+  & .filter {
+    width: 17%;
+    border: none;
+    border-radius: 8px;
+    height: 58%;
+    font-size: 17px;
+    background: #eff0f6;
+    color: #5d5b74;
+    padding-left: 12px;
+  }
+}

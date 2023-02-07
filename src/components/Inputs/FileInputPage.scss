@@ -1,0 +1,32 @@
+.upload {
+  background-color: #610bef;
+  width: 184px;
+  padding: 15px;
+  padding-left: 22%;
+  display: flex;
+  gap: 10%;
+  border-radius: 11px;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+
+  & .upload-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  & .upload-input {
+    width: 100%;
+  }
+  & .upload-input::before {
+    content: "Upload";
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+
+  & img {
+    width: 17px;
+    filter: invert(95%) sepia(100%) saturate(14%) hue-rotate(213deg)
+      brightness(104%) contrast(104%);
+  }
+}

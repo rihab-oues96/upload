@@ -1,0 +1,36 @@
+.sideBar {
+  width: 14%;
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 30px;
+}
+
+.navigations {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  padding: 12px;
+  gap: 30px;
+  font-size: 16px;
+
+  & li {
+    list-style: none;
+
+    & > a {
+      padding: 0;
+      display: flex;
+      gap: 13px;
+      text-decoration: none !important;
+      color: #6d7091;
+    }
+
+    & img {
+      width: 17px;
+      filter: invert(49%) sepia(8%) saturate(1303%) hue-rotate(197deg)
+        brightness(88%) contrast(86%);
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.info-card-info {
+  width: 300px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7fc;
+  border-radius: 15px;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    // background-color: #eaac30;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    border-radius: 30%;
+    margin-right: 15px;
+
+    & > img {
+      width: 35px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+        brightness(102%) contrast(102%);
+    }
+  }
+  .info {
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-decoration-style: solid;
+  }
+  .go {
+    color: #727594;
+    font-size: 15px;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

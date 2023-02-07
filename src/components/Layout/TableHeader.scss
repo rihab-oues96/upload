@@ -1,0 +1,14 @@
+tr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  padding-bottom: 10px;
+
+  & > td {
+    font-family: cursive;
+    font-size: 0.84rem;
+    color: gray;
+  }
+}
